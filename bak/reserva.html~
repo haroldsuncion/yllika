@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Bienvenidos a Casa YlliKa</title>
+<script language="javascript" type="text/javascript">
+function Ireserva(){
+	var name = $("#name").val();
+	var lastname = $("#lastname").val();	
+  	document.write(name)
+</script>
+</head>
+<body>
+<div>
+<form method="post">
+name:<input type="text" name="name"><BR>
+lastname:<input type="text" name="lastname"><BR>
+room:<input type="text" name="room"><BR>
+<input type="button" value="send" onclick="Ireserva()">
+</form>
+</div>
+</body>
+</html>
