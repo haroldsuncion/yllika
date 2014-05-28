@@ -1,4 +1,0 @@
-<?php
-$pdf=$_POST["pdf"];
-print $
-?>
